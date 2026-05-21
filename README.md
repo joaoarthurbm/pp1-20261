@@ -16,36 +16,36 @@
 
 # Radix Dois Dígitos
     
-    Escreva o método radix que ordena uma sequência de números seguindo
-    a estratégia do Radix Sort. Você deve usar o counting sort
-    como rotina de ordenação primária. Contudo, ao invés de ordenar
-    dígito a dígito, você vai ordenar a cada par de dígitos.
+Escreva o método radix que ordena uma sequência de números seguindo
+a estratégia do Radix Sort. Você deve usar o counting sort
+como rotina de ordenação primária. Contudo, ao invés de ordenar
+dígito a dígito, você vai ordenar a cada par de dígitos.
 
     - Todos os números tem o mesmo número de dígitos.
     - Todos os números tem uma quantidade par de dígitos.
     - Não há valores negativos no array.
     
    
-    Veja o exemplo da ordenação para o seguinte array [7843, 5374, 2344, 8543].
+Veja o exemplo da ordenação para o seguinte array [7843, 5374, 2344, 8543].
 
-    Na primeira execução do counting sort, ele deve levar em consideração
-    43, 74, 44 e 43, que são os números formados pela concatenação do dois primeiros dígitos (mais à direita)
-    de cada número.
+Na primeira execução do counting sort, ele deve levar em consideração
+43, 74, 44 e 43, que são os números formados pela concatenação do dois primeiros dígitos (mais à direita)
+de cada número.
 
-    Depois, deve levar em consideração os números 78, 53, 23 e 85, que são os números formados pela concatenação 
-    dos dígitos 3 e 4 (mais à direita) de cada número.
+Depois, deve levar em consideração os números 78, 53, 23 e 85, que são os números formados pela concatenação 
+dos dígitos 3 e 4 (mais à direita) de cada número.
     
     ## Restrições
     
-    Não é permitido usar Arrays.sort ou qualquer método
-    pronto de bibliotecas de ordenação. Caso precise, implemente.
+Não é permitido usar Arrays.sort ou qualquer método
+pronto de bibliotecas de ordenação. Caso precise, implemente.
 
-    Seu programa deve apenas manipular o array de inteiros. Não pode usar funções como:
+Seu programa deve apenas manipular o array de inteiros. Não pode usar funções como:
     
-        - insert
-        - remove
-        - pop
-        - qualquer função de ordenação que não tenha sido feita por você
+    - insert
+    - remove
+    - pop
+    - qualquer função de ordenação que não tenha sido feita por você
         
 
 ## Entregando a prova
