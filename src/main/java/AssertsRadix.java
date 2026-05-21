@@ -1,4 +1,4 @@
-Public class AssertsRadix {
+public class AssertsRadix {
 
  public static void main(String[] args) {
 
