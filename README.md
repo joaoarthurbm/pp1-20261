@@ -11,7 +11,7 @@
 
 > Os testes estão na classe Radix2Digitos.java
 
-    javac Radix2Digitos.java ; java -ea Radix2Digitos
+    javac AssertsRadix.java ; java -ea AssertsRadix
 
 
 # Radix Dois Dígitos
