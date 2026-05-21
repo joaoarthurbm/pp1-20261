@@ -57,13 +57,13 @@ Seu programa deve apenas manipular o array de inteiros. Não pode usar funções
     - qualquer função de ordenação que não tenha sido feita por você
         
 
-## Entregando a prova
+# Entregando a prova
 
 > ⚠️ **Importante:** Todos os comandos abaixo devem ser executados no **diretório pai** do projeto, ou seja, no diretório que **contém** o diretório `pp1-20261/`. 
 
 ---
 
-### Passo 1: Gerar o arquivo compactado da sua solução
+## Passo 1: Gerar o arquivo compactado da sua solução
 
 Execute o comando abaixo **no diretório pai** do projeto (o diretório que contém `pp1-20261/`):
 
@@ -72,7 +72,7 @@ tar zcvf nome-sobrenome-matricula.tar.gz pp1-20261/
 ```
 ---
 
-### Passo 2: Submeter sua solução
+## Passo 2: Submeter sua solução
 
 Execute o comando abaixo **no mesmo diretório do Passo 1**:
 
