@@ -9,10 +9,16 @@
 
 > O código java estará (ou você terá que colocar) no diretório **/src/main/java/**
 
-> Os testes estão na classe Radix2Digitos.java
+> Os testes estão nas classes AssertsRadix.java e AssertsMediana.java
 
-    javac AssertsRadix.java ; java -ea AssertsRadix
+    javac AssertsRadix.java AssertsMediana.java; java -ea AssertsRadix AssertsMediana
 
+
+# Mediana de Três
+
+Uma tentativa de achar um pivot bom no particionamento é usar a mediana de 3, método no qual o pivo é escolhido como a mediana entre o primeiro, o elemento central e o último elemento do array. Implemente a função lomutoPartition(int v[]), que particiona um array seguindo a estratégia de lomuto e escolhendo o pivot usando a estratégia da mediana de 3. Sua função deve retornar a posição final do pivot. Lembre-se que na nossa implementação do Lomuto escolhemos o primeiro elemento como sendo o pivot para executar o particionamento.
+
+Obs.: Não é permitido usar o método sort da biblioteca padrão. Você deve se virar sem isso para descobrir a mediana dos 3 elementos.
 
 # Radix Dois Dígitos
     
