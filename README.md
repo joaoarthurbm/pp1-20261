@@ -77,7 +77,7 @@ tar zcvf nome-sobrenome-matricula.tar.gz pp1-20261/
 Execute o comando abaixo **no mesmo diretório do Passo 1**:
 
 ```bash
-bash template-piloto-prova/submit-answer.sh prova1 nome-sobrenome-matricula.tar.gz
+bash pp1-20261/submit-answer.sh prova1 nome-sobrenome-matricula.tar.gz
 ```
 
 Importante: a senha é `leda`
