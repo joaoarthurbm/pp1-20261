@@ -17,9 +17,6 @@ public class Radix2Digitos {
 
     /**
      * Counting Sort estável considerando pares de dígitos.
-     *
-     * exp = 1   -> considera os 2 últimos dígitos
-     * exp = 100 -> considera os próximos 2 dígitos
      */
     private static void countingSort(int[] array, int exp) {
 
