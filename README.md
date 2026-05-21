@@ -52,16 +52,16 @@
 
 ## Entregando a prova
 
-> ⚠️ **Importante:** Todos os comandos abaixo devem ser executados no **diretório pai** do projeto, ou seja, no diretório que **contém** o diretório `template-piloto-prova/`. 
+> ⚠️ **Importante:** Todos os comandos abaixo devem ser executados no **diretório pai** do projeto, ou seja, no diretório que **contém** o diretório `pp1-20261/`. 
 
 ---
 
 ### Passo 1: Gerar o arquivo compactado da sua solução
 
-Execute o comando abaixo **no diretório pai** do projeto (o diretório que contém `template-piloto-prova/`):
+Execute o comando abaixo **no diretório pai** do projeto (o diretório que contém `pp1-20261/`):
 
 ```bash
-tar zcvf nome-sobrenome-matricula.tar.gz template-piloto-prova/
+tar zcvf nome-sobrenome-matricula.tar.gz pp1-20261/
 ```
 ---
 
@@ -70,7 +70,7 @@ tar zcvf nome-sobrenome-matricula.tar.gz template-piloto-prova/
 Execute o comando abaixo **no mesmo diretório do Passo 1**:
 
 ```bash
-bash template-piloto-prova/submit-answer.sh simulado nome-sobrenome-matricula.tar.gz
+bash template-piloto-prova/submit-answer.sh prova1 nome-sobrenome-matricula.tar.gz
 ```
 
 Importante: a senha é `leda`
