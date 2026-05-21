@@ -9,46 +9,44 @@
 
 > O código java estará (ou você terá que colocar) no diretório **/src/main/java/**
 
-> Os testes estão na classe AssertsMoveImpostor.java
+> Os testes estão na classe Radix2Digitos.java
 
-    javac AssertsMoveImpostor.java ; java -ea AssertsMoveImpostor
+    javac Radix2Digitos.java ; java -ea Radix2Digitos
 
 
-# Simulado Prova
+# Radix Dois Dígitos
+    
+    Escreva o método radix que ordena uma sequência de números seguindo
+    a estratégia do Radix Sort. Você deve usar o counting sort
+    como rotina de ordenação primária. Contudo, ao invés de ordenar
+    dígito a dígito, você vai ordenar a cada par de dígitos.
 
-    Move impostor
+    - Todos os números tem o mesmo número de dígitos.
+    - Todos os números tem uma quantidade par de dígitos.
+    - Não há valores negativos no array.
     
-    Escreva o método moveImpostor que encontra e move o impostor de um array
-    de inteiros uma lista de inteiros. O impostor é o **primeiro** número que quebra uma sequencia em ordem crescente. Por exemplo, na sequência:
+   
+    Veja o exemplo da ordenação para o seguinte array [7843, 5374, 2344, 8543].
+
+    Na primeira execução do counting sort, ele deve levar em consideração
+    43, 74, 44 e 43, que são os números formados pela concatenação do dois primeiros dígitos (mais à direita)
+    de cada número.
+
+    Depois, deve levar em consideração os números 78, 53, 23 e 85, que são os números formados pela concatenação 
+    dos dígitos 3 e 4 (mais à direita) de cada número.
     
-        1 2 4 3 7 90
+    ## Restrições
     
-    O impostor é o elemento 3.
-    
-    Além de encontrar o impostor, você deve posiciona-lo em seu devido lugar. 
-    Para o exemplo acima, seu método deve alterar o array 
-    para: 1 2 3 4 7 90.
-    
-    *Importante!* Só há um impostor. 
-    Como dito anteriormente, é o primeiro elemento que quebra uma sequência ordenada.
-    
-    Veja outro exemplo:
-    
-    
-        5 7 8 19 -4 4 1 6 8 12 81 3
-        
-        Nessa sequência, o impostor é o elemento -4. Após a execução do seu algoritmo, o array deve ficar neste estado:
-    
-        -4 5 7 8 19 4 1 6 8 12 81 3
-    
-    #### Funções que NÃO são permitidas
-    Seu programa deve apenas manipular o array de inteiros.
+    Não é permitido usar Arrays.sort ou qualquer método
+    pronto de bibliotecas de ordenação. Caso precise, implemente.
+
+    Seu programa deve apenas manipular o array de inteiros. Não pode usar funções como:
     
         - insert
         - remove
         - pop
-        - qualquer função de ordenação
-
+        - qualquer função de ordenação que não tenha sido feita por você
+        
 
 ## Entregando a prova
 
