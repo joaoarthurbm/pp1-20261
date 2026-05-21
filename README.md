@@ -11,7 +11,7 @@
 
 > Os testes estão nas classes AssertsRadix.java e AssertsMediana.java
 
-    javac AssertsRadix.java AssertsMediana.java; java -ea AssertsRadix AssertsMediana
+    javac PivotMediana.java Radix2Digitos.java AssertsRadix.java AssertsMediana.java; java -ea AssertsRadix AssertsMediana
 
 
 # Mediana de Três
