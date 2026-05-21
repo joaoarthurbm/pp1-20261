@@ -34,8 +34,11 @@ de cada número.
 
 Depois, deve levar em consideração os números 78, 53, 23 e 85, que são os números formados pela concatenação 
 dos dígitos 3 e 4 (mais à direita) de cada número.
+
+Note que o algoritmo não é in-place, mas o resultado ordenado deve 
+ficar no array original, que será verificado pelos asserts.
     
-    ## Restrições
+## Restrições
     
 Não é permitido usar Arrays.sort ou qualquer método
 pronto de bibliotecas de ordenação. Caso precise, implemente.

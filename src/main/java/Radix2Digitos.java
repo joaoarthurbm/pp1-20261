@@ -10,18 +10,12 @@ public class Radix2Digitos {
      * 7843 -> primeiro processa 43, depois 78
      */
     public static void radix(int[] array) {
-
-        // TODO: implemente sua solução aqui
-
     }
 
     /**
      * Counting Sort estável considerando pares de dígitos.
      */
     private static void countingSort(int[] array, int exp) {
-
-        // TODO: implemente sua solução aqui
-
     }
 
 }

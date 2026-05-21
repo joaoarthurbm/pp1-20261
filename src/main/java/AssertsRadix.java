@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class AssertsRadix {
 
  public static void main(String[] args) {
@@ -56,6 +58,6 @@ public class AssertsRadix {
                 new int[]{4444, 4444, 4444}
         ) : "Teste 6 falhou";
 
-        System.out.println("Todos os testes passaram.");
+        System.out.println("Todos os testes do Radix passaram.");
     }
 }
