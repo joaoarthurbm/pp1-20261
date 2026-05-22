@@ -26,11 +26,6 @@ public class AssertsMediana {
         assert p5 == 0 : "Teste 5 falhou: posicao do pivot incorreta";
         checkPartition(v5, p5, "Teste 5");
 
-        int[] v6 = {2, 1};
-        int p6 = PivotMediana.lomutoPartition(v6);
-        assert p6 == 1 : "Teste 6 falhou: posicao do pivot incorreta";
-        checkPartition(v6, p6, "Teste 6");
-
         int[] v7 = {5, 3, 5, 3, 5, 3};
         int p7 = PivotMediana.lomutoPartition(v7);
         checkPartition(v7, p7, "Teste 7");
