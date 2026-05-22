@@ -12,10 +12,4 @@ public class Radix2Digitos {
     public static void radix(int[] array) {
     }
 
-    /**
-     * Counting Sort estável considerando pares de dígitos.
-     */
-    private static void countingSort(int[] array, int exp) {
-    }
-
 }
